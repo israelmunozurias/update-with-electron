@@ -1,6 +1,6 @@
 {
   "name": "update-with-electron",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Actualizaciones automaticas en electron",
   "main": "main.js",
   "repository": {
