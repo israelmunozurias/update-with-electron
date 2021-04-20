@@ -16,7 +16,9 @@ function createWindow() {
     mainWindow = null;
   });
   mainWindow.once("ready-to-show", () => {
-    autoUpdater.checkForUpdatesAndNotify();
+    console.log("pre check");
+    const r = autoUpdater.checkForUpdatesAndNotify();
+    console.log("respuesta", r);
   });
 }
 
