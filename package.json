@@ -1,6 +1,6 @@
 {
   "name": "update-with-electron",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Actualizaciones automaticas en electron",
   "main": "main.js",
   "repository": {
@@ -10,8 +10,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "build": "electron-builder build --linux --publish never",
-    "deploy": "electron-builder build --linux --publish always"
+    "build": "electron-builder build --linux --win --publish never",
+    "deploy": "electron-builder build --linux --win --publish always"
   },
   "author": "israel",
   "license": "ISC",

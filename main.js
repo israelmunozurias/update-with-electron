@@ -15,9 +15,7 @@ function createWindow() {
   mainWindow.on("closed", function () {
     mainWindow = null;
   });
-  mainWindow.once("ready-to-show", () => {
-    const r = autoUpdater.checkForUpdatesAndNotify();
-  });
+  autoUpdater.checkForUpdatesAndNotify();
 }
 
 app.on("ready", () => {
